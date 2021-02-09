@@ -1,0 +1,24 @@
+Driver: select * from users
+Query Builder: table('users').select('*').where() ==> Knex.js
+
+npm install knex -> instalar o knex
+
+npm install sqlite3 -> instalar de acordo com o banco de dados que for usar
+
+Conexão com o banco de dados
+
+npx knex init -> cria o arquivo knexfile.js
+    -> development: ambiente de desenvolvimento
+    -> staging: ambiente de produção para o time de desenvolvimento
+    -> production: ambiente para os clientes
+
+No knexjs.org: 
+    -> Config Options:
+        migrations
+
+Criar pasta migrations dentro de database:
+    npx knex migrate:make create_ongs -> criar uma migration
+
+    npx knex migrate:latest -> para criar a tabela
+
+    npx knex migrate:rollback -> desfaz a última migration que eu executei
