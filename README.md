@@ -26,7 +26,7 @@ Uma das novidadades no projeto que diferencia das edições anteriores, é a uti
     <img src=".github/insomnia.png" width="100%">
 </h1>
 
-Baixo o [Insomnia](https://insomnia.rest), clique em `Application > Preferences > Data > Import Data > From URL`, e cole a seguinte url **`asdasgagagfa`**
+Baixo o [Insomnia](https://insomnia.rest), clique em `Application > Preferences > Data > Import Data > From URL`, e cole a seguinte url `https://github.com/erik-ferreira/semana-omnistack-11/blob/main/Insomnia_2021-02-08.json`
 
 #### :warning: Dicas para utilizar a API
 
